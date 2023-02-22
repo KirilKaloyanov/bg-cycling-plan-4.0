@@ -1,4 +1,4 @@
-fetch("menuTemplate.html")
+fetch("headerTemplate.html")
   .then((response) => response.text())
   .then((html) => render(html));
 
