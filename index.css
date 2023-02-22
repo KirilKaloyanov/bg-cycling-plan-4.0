@@ -38,9 +38,9 @@ a {
   color: var(--color-body-text);
 }
 
-.card_link {
+/* .card_link {
   text-decoration: none;
-}
+} */
 
 .menu_link {
   text-decoration: none;
@@ -450,7 +450,7 @@ a {
   margin-left: 8rem;
 }
 
-.card {
+/* .card {
   margin: 1rem;
   width: 25rem;
   height: 25rem;
@@ -486,7 +486,7 @@ a {
   font-style: italic;
   text-decoration: underline;
   text-decoration-thickness: 1px;
-}
+} */
 
 /*  DOCUMENT  */
 /*  DOCUMENT  */
