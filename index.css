@@ -99,6 +99,12 @@ a {
   max-width: 1300px;
 }
 
+.ham {
+  top: 0px;
+  background-color: #b8b883;
+  max-width: 1300px;
+}
+
 .img_logo {
   margin-top: 1rem;
   margin-left: 1rem;
