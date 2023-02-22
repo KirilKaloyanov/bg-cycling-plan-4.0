@@ -8,18 +8,14 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1300px;
   box-shadow: 1rem 1rem 5rem grey;
   font-family: "Montserrat", "Helvetica", "Cambria", "Roboto Slab", "Georgia",
     "Times New Roman", serif;
   color: var(--color-body-text);
   font-size: 1.6rem;
   border-radius: 5px;
-}
-
-#root {
-  max-width: 1300px;
-  margin: auto;
 }
 
 h1,
@@ -100,7 +96,7 @@ a {
 }
 
 .ham {
-  top: 0px;
+  top: -10px;
   background-color: #b8b883;
   max-width: 1300px;
 }
