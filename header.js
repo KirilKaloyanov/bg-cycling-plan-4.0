@@ -1,9 +1,9 @@
 fetch("headerTemplate.html")
   .then((response) => response.text())
-  .then((html) => render(html));
+  .then((html) => renderHeader(html));
 
 function stickyMenu(element) {
-  let scrolling = false;
+  let scrolling = true;
   window.onscroll = () => (scrolling = true);
 
   setInterval(() => {
@@ -15,11 +15,11 @@ function stickyMenu(element) {
   }, 300);
 }
 
-function render(html) {
+function renderHeader(html) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, "text/html");
-  const template = doc.querySelector("#menu-template");
-  const menuTarget = template.content.cloneNode(true);
+  const headerTemplate = doc.querySelector("#menu-template");
+  const menuTarget = headerTemplate.content.cloneNode(true);
   document.querySelector("header").appendChild(menuTarget);
 
   const headerDiv = document.querySelector(".header");
