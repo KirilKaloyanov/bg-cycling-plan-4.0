@@ -16,7 +16,9 @@ function render(html) {
         
         connectedCallback() {
             this.shadowRoot.appendChild(template.content.cloneNode(true));
-            console.log(template)
+            this.shadowRoot.querySelector('.card_title').textContent = this.getAttribute('title');
+            this.shadowRoot.querySelector('.card_author').textContent = this.getAttribute('author');
+            this.shadowRoot.querySelector('a.card_link').href = this.getAttribute('link');
         }
     }
 
