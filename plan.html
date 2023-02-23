@@ -250,6 +250,8 @@
     </div>
   </body>
   <script>
+    window.onload = () => loadMenu();
+
     fetch("templates/cardTemplate.html")
       .then((response) => response.text())
       .then((html) => render(html));
