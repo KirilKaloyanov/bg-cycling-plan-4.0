@@ -1,4 +1,4 @@
-fetch("headerTemplate.html")
+fetch("templates/headerTemplate.html")
   .then((response) => response.text())
   .then((html) => renderHeader(html));
 
@@ -12,7 +12,7 @@ function stickyMenu(element) {
       if (window.scrollY > 45) element.classList.add("ham");
       else element.classList.remove("ham");
     }
-  }, 300);
+  }, 100);
 }
 
 function renderHeader(html) {
