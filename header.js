@@ -1,9 +1,11 @@
-function loadMenu() {
+function loadHeader(background) {
   fetch("templates/headerTemplate.html")
     .then((response) => response.text())
     .then((html) => renderHeader(html));
 
   function stickyMenu(element) {
+    if (background) element.classList.add('menu_background');
+
     let scrolling = true;
     window.onscroll = () => (scrolling = true);
 
