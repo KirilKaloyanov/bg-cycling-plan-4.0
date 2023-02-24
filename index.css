@@ -87,22 +87,26 @@ a {
 /*  NAVBAR  */
 /*  NAVBAR  */
 /*  NAVBAR  */
+.blank {
+  height: 4.7rem;
+}
+
 .header {
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 10px;
   width: 100%;
   max-width: 1300px;
 }
 
 .ham {
-  top: -10px;
+  top: 0px;
   background-color: #b8b883;
   max-width: 1300px;
 }
 
 .img_logo {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-left: 1rem;
   width: 17rem;
 }
@@ -130,7 +134,7 @@ a {
   .hamburger {
     position: absolute;
     right: 3.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 30px;
   }
 
@@ -186,6 +190,10 @@ a {
 
 .menu_back .container_menu {
   color: var(--color-body-olive);
+}
+
+.menu_background {
+  background-color: var(--color-body-olive);
 }
 
 /*  HERO  */
