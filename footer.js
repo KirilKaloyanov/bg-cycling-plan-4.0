@@ -1,1 +1,2 @@
-const footer = document.getElementById('footer');
+const footer = document.querySelector('footer');
+console.log(footer);
