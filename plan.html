@@ -260,9 +260,9 @@
 
     fetch("templates/cardTemplate.html")
       .then((response) => response.text())
-      .then((html) => render(html));
+      .then((html) => card(html));
 
-    function render(html) {
+    function card(html) {
       const parser = new DOMParser();
       const doc = parser.parseFromString(html, "text/html");
       const cardTemplate = doc.querySelector("template");
