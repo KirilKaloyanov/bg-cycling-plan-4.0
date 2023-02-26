@@ -644,7 +644,12 @@ a {
 /*  MAP  */
 /*  MAP  */
 
-#map { height: 180px; }
+#map { height: 500px; };
+
+.mypopup {
+  font-size: 2rem;
+  color: red;
+}
 
 .leaflet-container {
   height: 500px;
