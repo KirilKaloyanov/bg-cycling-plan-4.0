@@ -2,7 +2,7 @@ const footer = document.querySelector('footer');
 footer.classList.add('footer');
 
 const image = document.createElement('img');
-image.src = '/images/logoDTP.png';
+image.src = 'images/logoDTP.png';
 image.alt = 'Danube Transnational Programme logo';
 image.classList.add('dtpLogo');
 
